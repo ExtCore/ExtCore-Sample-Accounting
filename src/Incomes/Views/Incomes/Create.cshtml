@@ -1,0 +1,20 @@
+﻿@* Copyright © 2017 Dmitry Sikorsky. All rights reserved. *@
+@* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. *@
+@model Incomes.ViewModels.Incomes.CreateViewModel
+<h1 class="master-detail-view__title">
+  Create Income
+</h1>
+<form class="master-detail-view__form form" id="form" method="post">
+  <div class="form__field field">
+    <label asp-for="Amount" class="field__label label"></label>
+    <input asp-for="Amount" class="field__input input" type="text" />
+  </div>
+  <div class="form__field field">
+    <label asp-for="Description" class="field__label label"></label>
+    <textarea asp-for="Description" class="field__textarea textarea"></textarea>
+  </div>
+  <div class="form__buttons buttons">
+    <button class="buttons__button button" type="submit">Create income</button>
+    <a class="buttons__button button" href="/incomes">Cancel</a>
+  </div>
+</form>

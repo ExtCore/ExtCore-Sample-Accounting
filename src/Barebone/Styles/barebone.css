@@ -1,0 +1,135 @@
+﻿/* Copyright © 2017 Dmitry Sikorsky. All rights reserved. */
+/* Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. */
+html, body {
+  font: normal 15px 'Open Sans', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* Input */
+.input {
+  font: normal 15px 'Open Sans', sans-serif;
+}
+
+/* TextArea */
+.textarea {
+  font: normal 15px 'Open Sans', sans-serif;
+}
+
+/* Input Validation Error */
+.input-validation-error {
+  background-color: #ffff96;
+}
+
+/* Button */
+.button {
+  font: normal 15px 'Open Sans', sans-serif;
+}
+
+/* Field */
+.field {
+}
+
+.field__label {
+  display: block;
+}
+
+.field__input {
+  width: 400px;
+}
+
+.field__textarea {
+  width: 400px;
+  height: 100px;
+}
+
+/* Buttons */
+.buttons {
+}
+
+.buttons__button {
+  margin-right: 20px;
+}
+
+/* Form */
+.form {
+}
+
+.form__field {
+  margin-top: 10px;
+}
+
+.form__buttons {
+  margin-top: 20px;
+}
+
+/* Menu */
+.menu {
+}
+
+.menu__item {
+  display: block;
+}
+
+/* Master-Detail View */
+.master-detail-view {
+  display: flex;
+  min-height: 100%;
+}
+
+.master-detail-view__master {
+  box-sizing: border-box;
+  background: #f0f0f0;
+  padding: 20px;
+  flex: 0 0 250px;
+  position: relative;
+  width: 250px;
+}
+
+.master-detail-view__detail {
+  box-sizing: border-box;
+  padding: 20px;
+  flex: 1 0 auto;
+}
+
+.master-detail-view__menu {
+  margin-top: 20px;
+}
+
+.master-detail-view__form {
+  margin-top: 20px;
+}
+
+.master-detail-view__table {
+  margin: 20px 0;
+}
+
+/* Table */
+.table {
+  width: 100%;
+}
+
+.table__row {
+}
+
+.table__cell {
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: normal;
+  text-align: left;
+  padding: 5px;
+}
+
+.table__cell--header {
+  background-color: #f0f0f0;
+}

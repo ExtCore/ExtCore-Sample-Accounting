@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <Authors>Dmitry Sikorsky</Authors>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtCore.Data" Version="1.2.0" />
+    <PackageReference Include="ExtCore.Mvc" Version="1.2.0" />
+    <PackageReference Include="ExtCore.WebApplication" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Barebone\Barebone.csproj" />
+    <ProjectReference Include="..\Incomes\Incomes.csproj" />
+    <ProjectReference Include="..\Incomes.Data.EntityFramework.Sqlite\Incomes.Data.EntityFramework.Sqlite.csproj" />
+    <ProjectReference Include="..\Expenses\Expenses.csproj" />
+    <ProjectReference Include="..\Expenses.Data.EntityFramework.Sqlite\Expenses.Data.EntityFramework.Sqlite.csproj" />
+    <ProjectReference Include="..\Balance\Balance.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+</Project>

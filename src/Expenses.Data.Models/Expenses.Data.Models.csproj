@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Dmitry Sikorsky</Authors>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtCore.Data.Models.Abstractions" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
