@@ -10,7 +10,7 @@ tools and languages (Visual Studio 2017, C# etc). Join our team!
 
 This is the ExtCore framework advanced sample accounting web application:
 
-![Advanced sample accounting web application](http://sikorsky.pro/images/github/extcore/extcore-sample-accounting/1.png)
+![Advanced sample accounting web application](http://sikorsky.pro/images/github/extcore-sample-accounting/1.png)
 
 It contains 4 extensions: barebone (defines the generic system UI etc.), incomes, expenses, and balance.
 It uses SQLite database to store all the information. UI is built from the parts too.
