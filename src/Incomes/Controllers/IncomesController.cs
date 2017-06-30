@@ -3,7 +3,7 @@
 
 using ExtCore.Data.Abstractions;
 using Incomes.Data.Abstractions;
-using Incomes.Data.Models;
+using Incomes.Data.Entities;
 using Incomes.ViewModels.Incomes;
 using Microsoft.AspNetCore.Mvc;
 

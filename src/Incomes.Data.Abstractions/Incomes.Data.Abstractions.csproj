@@ -6,15 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Views\**" />
+    <PackageReference Include="ExtCore.Data.Abstractions" Version="2.0.0-alpha1" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ExtCore.Data.Abstractions" Version="1.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Incomes.Data.Models\Incomes.Data.Models.csproj" />
+    <ProjectReference Include="..\Incomes.Data.Entities\Incomes.Data.Entities.csproj" />
   </ItemGroup>
 
 </Project>

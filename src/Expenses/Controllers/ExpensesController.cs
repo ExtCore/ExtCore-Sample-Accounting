@@ -2,7 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using Expenses.Data.Abstractions;
-using Expenses.Data.Models;
+using Expenses.Data.Entities;
 using Expenses.ViewModels.Expenses;
 using ExtCore.Data.Abstractions;
 using Microsoft.AspNetCore.Mvc;

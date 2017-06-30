@@ -1,15 +1,15 @@
 ﻿// Copyright © 2017 Dmitry Sikorsky. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using ExtCore.Data.EntityFramework.Sqlite;
-using Incomes.Data.Models;
+using ExtCore.Data.EntityFramework;
+using Incomes.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Incomes.Data.EntityFramework.Sqlite
 {
-  public class ModelRegistrar : IModelRegistrar
+  public class EntityRegistrar : IEntityRegistrar
   {
-    public void RegisterModels(ModelBuilder modelBuilder)
+    public void RegisterEntities(ModelBuilder modelBuilder)
     {
       modelBuilder.Entity<Income>(etb =>
         {

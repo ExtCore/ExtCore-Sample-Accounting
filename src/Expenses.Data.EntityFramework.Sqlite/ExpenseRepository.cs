@@ -4,8 +4,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using Expenses.Data.Abstractions;
-using Expenses.Data.Models;
-using ExtCore.Data.EntityFramework.Sqlite;
+using Expenses.Data.Entities;
+using ExtCore.Data.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 
 namespace Expenses.Data.EntityFramework.Sqlite

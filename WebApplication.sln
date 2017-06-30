@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2FE680E8-878C-4FF3-80FC-4241411518C6}"
 EndProject
@@ -21,13 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expenses.Data.Abstractions"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expenses.Data.EntityFramework.Sqlite", "src\Expenses.Data.EntityFramework.Sqlite\Expenses.Data.EntityFramework.Sqlite.csproj", "{434BD43E-72F9-4502-AF86-F3875AEE5D79}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expenses.Data.Models", "src\Expenses.Data.Models\Expenses.Data.Models.csproj", "{00D45B51-C01F-4113-B9CE-B2FE02BDB15F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expenses.Data.Entities", "src\Expenses.Data.Entities\Expenses.Data.Entities.csproj", "{00D45B51-C01F-4113-B9CE-B2FE02BDB15F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incomes.Data.Abstractions", "src\Incomes.Data.Abstractions\Incomes.Data.Abstractions.csproj", "{44DAA191-BDE7-434C-82CE-4BBB4F1CA249}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incomes.Data.EntityFramework.Sqlite", "src\Incomes.Data.EntityFramework.Sqlite\Incomes.Data.EntityFramework.Sqlite.csproj", "{B9AFD197-EC71-4FA5-95F1-9403825ACF58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incomes.Data.Models", "src\Incomes.Data.Models\Incomes.Data.Models.csproj", "{A25198EA-9157-4E8A-865A-153362DE563F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Incomes.Data.Entities", "src\Incomes.Data.Entities\Incomes.Data.Entities.csproj", "{A25198EA-9157-4E8A-865A-153362DE563F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Balance Extension", "Balance Extension", "{ECB13FB1-AE61-4335-9A6D-1388BA7D6FD3}"
 EndProject

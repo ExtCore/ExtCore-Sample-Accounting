@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System;
-using ExtCore.Data.Models.Abstractions;
+using ExtCore.Data.Entities.Abstractions;
 
-namespace Incomes.Data.Models
+namespace Incomes.Data.Entities
 {
   public class Income : IEntity
   {

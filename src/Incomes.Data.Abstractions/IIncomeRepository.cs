@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 using ExtCore.Data.Abstractions;
-using Incomes.Data.Models;
+using Incomes.Data.Entities;
 
 namespace Incomes.Data.Abstractions
 {

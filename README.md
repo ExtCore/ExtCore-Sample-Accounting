@@ -1,4 +1,4 @@
-# ExtCore Framework 1.2.0 Advanced Sample Accounting Web Application
+# ExtCore Framework 2.0.0-alpha1 Advanced Sample Accounting Web Application
 
 [![Join the chat at https://gitter.im/ExtCore/ExtCore](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ExtCore/ExtCore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -27,7 +27,7 @@ add direct dependencies to the main web application project instead, but it is n
 
 ### Other Samples
 
-* [Full-featured ExtCore 1.2.0 framework sample web application](https://github.com/ExtCore/ExtCore-Sample);
+* [Full-featured ExtCore 2.0.0-alpha1 framework sample web application](https://github.com/ExtCore/ExtCore-Sample);
 * [ExtCore framework 1.2.0 sample simplest web application](https://github.com/ExtCore/ExtCore-Sample-Simplest);
 * [ExtCore framework 1.2.0 sample MVC web application](https://github.com/ExtCore/ExtCore-Sample-Mvc);
 * [ExtCore framework 1.2.0 sample web application that uses a database](https://github.com/ExtCore/ExtCore-Sample-Data);
@@ -37,7 +37,7 @@ add direct dependencies to the main web application project instead, but it is n
 * [ExtCore framework 1.2.0 sample web application that uses the events](https://github.com/ExtCore/ExtCore-Sample-Events);
 * [ExtCore framework 1.2.0 sample API web application](https://github.com/ExtCore/ExtCore-Sample-Api).
 
-You can also download our [ready to use full-featured sample](http://extcore.net/files/ExtCore-Sample-1.2.0.zip).
+You can also download our [ready to use full-featured sample](http://extcore.net/files/ExtCore-Sample-2.0.0-alpha1.zip).
 It contains everything you need to run ExtCore-based web application from Visual Studio 2017, including SQLite
 database with the test data.
 
@@ -49,7 +49,7 @@ to help you start developing your ExtCore-based web applications.
 ### Real Projects
 
 Please take a look at [Platformus](https://github.com/Platformus/Platformus) on GitHub. It is CMS
-built on ExtCore framework with 11 extensions and 74 projects.
+built on ExtCore framework with more than 10 extensions and 70 projects.
 
 ## Links
 
