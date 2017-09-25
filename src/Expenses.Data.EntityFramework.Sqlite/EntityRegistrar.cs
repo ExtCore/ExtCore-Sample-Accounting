@@ -15,7 +15,7 @@ namespace Expenses.Data.EntityFramework.Sqlite
         {
           etb.HasKey(e => e.Id);
           etb.Property(e => e.Id).ValueGeneratedOnAdd();
-          etb.ForSqliteToTable("Expenses");
+          etb.ToTable("Expenses");
         }
       );
     }

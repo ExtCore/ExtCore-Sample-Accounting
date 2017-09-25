@@ -15,7 +15,7 @@ namespace Incomes.Data.EntityFramework.Sqlite
         {
           etb.HasKey(e => e.Id);
           etb.Property(e => e.Id).ValueGeneratedOnAdd();
-          etb.ForSqliteToTable("Incomes");
+          etb.ToTable("Incomes");
         }
       );
     }
