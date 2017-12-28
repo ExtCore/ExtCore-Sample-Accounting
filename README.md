@@ -49,7 +49,7 @@ to help you start developing your ExtCore-based web applications.
 ### Real Projects
 
 Please take a look at [Platformus](https://github.com/Platformus/Platformus) on GitHub. It is CMS
-built on ExtCore framework with more than 10 extensions and 70 projects.
+built on ExtCore framework with more than 10 extensions and 80 projects.
 
 ## Links
 
