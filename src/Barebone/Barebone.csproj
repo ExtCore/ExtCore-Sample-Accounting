@@ -1,17 +1,22 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <Authors>Dmitry Sikorsky</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Styles\**;Scripts\**;Views\**" />
+    <EmbeddedResource Include="Styles\**;Scripts\**" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);Styles\**;Scripts\**</DefaultItemExcludes>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="ExtCore.Data.Abstractions" Version="4.0.0" />
-    <PackageReference Include="ExtCore.Mvc.Infrastructure" Version="4.0.0" />
+    <PackageReference Include="ExtCore.Data.Abstractions" Version="5.0.0" />
+    <PackageReference Include="ExtCore.Mvc.Infrastructure" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>

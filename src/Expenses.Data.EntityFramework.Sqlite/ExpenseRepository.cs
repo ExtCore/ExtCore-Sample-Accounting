@@ -44,7 +44,7 @@ namespace Expenses.Data.EntityFramework.Sqlite
 
     public decimal Total()
     {
-      return this.dbSet.Sum(e => e.Amount);
+      return this.dbSet.ToList().Sum(e => e.Amount);
     }
   }
 }

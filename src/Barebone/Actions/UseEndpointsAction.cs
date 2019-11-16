@@ -8,13 +8,13 @@ using Microsoft.AspNetCore.Routing;
 
 namespace Barebone.Actions
 {
-  public class UseMvcAction : IUseMvcAction
+  public class UseEndpointsAction : IUseEndpointsAction
   {
     public int Priority => 1000;
 
-    public void Execute(IRouteBuilder routeBuilder, IServiceProvider serviceProvider)
+    public void Execute(IEndpointRouteBuilder endpointRouteBuilder, IServiceProvider serviceProvider)
     {
-      routeBuilder.MapRoute(name: "Default", template: "{controller}/{action}", defaults: new { controller = "Barebone", action = "Index" });
+      endpointRouteBuilder.MapControllerRoute(name: "Default", pattern: "{controller}/{action}", defaults: new { controller = "Barebone", action = "Index" });
     }
   }
 }
